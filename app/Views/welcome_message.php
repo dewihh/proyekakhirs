@@ -29,10 +29,10 @@
 			<div class="navbar__menu">
 				<ul>
 					<li>
-						<a class="overlay" href="./home.html"><span class="texts">Home</span></a>
+						<a class="overlay" href="<?= base_url('Home') ?>"><span class="texts">Home</span></a>
 					</li>
 					<li>
-						<a class="overlay" href="./home.html"><span class="texts">Registration</span></a>
+						<a class="overlay" href="<?= base_url('Home/register') ?>"><span class="texts">Registration</span></a>
 					</li>
 					<li>
 						<a class="overlay" href="./home.html"><span class="texts">Read Tag ID</span></a>
@@ -51,7 +51,7 @@
 				</div>
 				<div class="option">
 					<div class="option__satu">
-						<a href="#">
+						<a href="<?= base_url('Home/register') ?>">
 							<img src="<?= base_url('assets/img/icon user.svg') ?>">
 							<p>Pendaftaran Pasien Baru</p>
 						</a>

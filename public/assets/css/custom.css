@@ -18,7 +18,7 @@ body {
 }
 
 .homepages__title h1 {
-  font-size: 40px;
+  font-size: 45px;
   color: #946262;
 }
 
@@ -26,12 +26,12 @@ body {
   font-family: "Courier New", Courier, monospace;
   color: #cf7070;
   margin-top: 7px;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .homepages__navbar {
   font-family: "Sniglet", cursive;
-  width: 80%;
+  width: 82%;
   background-color: #3f859b;
   margin-left: 120px;
   margin-top: 44px;
@@ -79,14 +79,14 @@ body {
 
 .homepages__main h2 {
   font-family: "Lexend Zetta", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   margin-top: 60px;
-  color: #243f47;
+  color: #eedfdf;
 }
 
 .homepages__main .container .container__title {
   background-color: #cf7070;
-  width: 80%;
+  width: 82%;
   margin-left: 120px;
 }
 
@@ -95,15 +95,53 @@ body {
   display: flex;
   justify-content: space-evenly;
   background-color: #e09aab;
-  width: 80%;
+  width: 82%;
   margin-left: 120px;
 }
 
 .homepages__main .container .option .option__satu {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .homepages__main .container .option .option__satu a {
   color: #eedfdf;
+}
+
+/* STYLE HALAMAN REGISTER */
+
+.input__main {
+  margin-top: 30px;
+  background-color: #cf7070;
+  width: 55%;
+  margin: 20px auto;
+}
+
+.input__main .container__input {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.controls {
+  display: inline;
+}
+
+.controls textarea,
+.controls input,
+.controls select {
+  width: 313px;
+  height: 43px;
+  background-color: #e7a0b1;
+  border: none;
+}
+
+.control-group {
+  margin-top: 10px;
+}
+
+.control-label {
+  font-family: "Lexend Zetta", sans-serif;
+  font-size: 12px;
+  color: #eedfdf;
+  margin-right: 104px;
 }
