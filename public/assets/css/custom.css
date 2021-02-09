@@ -5,6 +5,7 @@
   text-decoration: none;
   outline: none;
   box-sizing: border-box;
+  border: none;
 }
 
 body {
@@ -118,30 +119,55 @@ body {
 }
 
 .input__main .container__input {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .controls {
-  display: inline;
+  display: inline-block;
 }
 
 .controls textarea,
 .controls input,
 .controls select {
-  width: 313px;
+  width: 350px;
   height: 43px;
   background-color: #e7a0b1;
   border: none;
 }
 
 .control-group {
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .control-label {
   font-family: "Lexend Zetta", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #eedfdf;
   margin-right: 104px;
+}
+
+/* STYLE HALAMAN READ_TAG */
+
+.input__main #show__user__id {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: auto 150px;
+  font-family: "Lexend Zetta", sans-serif;
+  font-size: 14px;
+}
+
+.input__main #show__user__id table tr td {
+  text-align: center;
+}
+
+/* STYLE HALAMAN READ_TAG_USER */
+
+.read {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: auto 150px;
+  font-family: "Lexend Zetta", sans-serif;
+  font-size: 14px;
 }

@@ -16,7 +16,6 @@
 	<link rel="shortcut icon" type="image/png" href="/favicon.ico" />
 	<link rel="stylesheet" href="<?= base_url('assets/css/custom.css') ?>" />
 	<!-- STYLES -->
-
 </head>
 
 <body>
@@ -35,7 +34,7 @@
 						<a class="overlay" href="<?= base_url('Home/register') ?>"><span class="texts">Registration</span></a>
 					</li>
 					<li>
-						<a class="overlay" href="./home.html"><span class="texts">Read Tag ID</span></a>
+						<a class="overlay" href="<?= base_url('Home/read') ?>"><span class="texts">Read Tag ID</span></a>
 					</li>
 					<li>
 						<a class="overlay" href="./home.html"><span class="texts">Service</span></a>
@@ -57,7 +56,7 @@
 						</a>
 					</div>
 					<div class="option__satu">
-						<a href="#">
+						<a href="<?= base_url('Home/read') ?>">
 							<img src="<?= base_url('assets/img/icon user 2.svg') ?>">
 							<p>Pendaftaran Pasien Lama</p>
 						</a>

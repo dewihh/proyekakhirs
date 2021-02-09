@@ -12,4 +12,12 @@ class Home extends BaseController
 	{
 		return view('register');
 	}
+	public function read()
+	{
+		return view('read_tag');
+	}
+	public function read_tag_id()
+	{
+		return view('read_tag_user');
+	}
 }
