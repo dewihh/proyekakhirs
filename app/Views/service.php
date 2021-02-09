@@ -51,28 +51,44 @@
                             <img src="<?= base_url('assets/img/poli umum.svg') ?>">
                             <p>POLI UMUM</p>
                         </a>
-                        <div class="bullet">A</div>
+                        <div class="bullet margin-top-3">
+                            <a href="<?= base_url('Home/service') ?>">
+                                <span>A</span>
+                            </a>
+                        </div>
                     </div>
                     <div class="card__satu">
                         <a href="<?= base_url('Home/service') ?>">
                             <img src="<?= base_url('assets/img/poli gigi.svg') ?>">
                             <p>POLI GIGI</p>
                         </a>
-                        <div class="bullet">A</div>
+                        <div class="bullet margin-top-3">
+                            <a href="<?= base_url('Home/service') ?>">
+                                <span>A</span>
+                            </a>
+                        </div>
                     </div>
                     <div class="card__satu">
                         <a href="<?= base_url('Home/service') ?>">
                             <img src="<?= base_url('assets/img/poli kia.svg') ?>">
                             <p>POLI KIA</p>
                         </a>
-                        <div class="bullet">A</div>
+                        <div class="bullet margin-top">
+                            <a href="<?= base_url('Home/service') ?>">
+                                <span>A</span>
+                            </a>
+                        </div>
                     </div>
                     <div class="card__satu">
                         <a href="<?= base_url('Home/service') ?>">
                             <img src="<?= base_url('assets/img/poli gizi.svg') ?>">
                             <p>POLI GIZI</p>
                         </a>
-                        <div class="bullet">A</div>
+                        <div class="bullet margin-top">
+                            <a href="<?= base_url('Home/service') ?>">
+                                <span>A</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

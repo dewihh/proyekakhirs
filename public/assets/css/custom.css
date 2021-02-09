@@ -179,6 +179,7 @@ body {
   width: 82%;
   margin-left: 120px;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .homepages__main .container .card .card__satu {
@@ -206,7 +207,28 @@ body {
 .homepages__main .container .card .card__satu .bullet {
   color: #ffffff;
   font-size: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
   background-color: #c4c4c4;
-  border-radius: 100%;
-  margin-top: 200px;
+  margin-left: 55px;
+}
+
+.homepages__main .container .card .card__satu .bullet:hover {
+  background-color: #000000;
+}
+
+.homepages__main .container .card .card__satu .bullet a span {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+}
+
+.margin-top {
+  margin-top: 100px;
+}
+
+.margin-top-3 {
+  margin-top: 79px;
 }
