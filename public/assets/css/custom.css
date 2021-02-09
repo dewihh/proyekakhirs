@@ -171,3 +171,42 @@ body {
   font-family: "Lexend Zetta", sans-serif;
   font-size: 14px;
 }
+
+.homepages__main .container .card {
+  font-family: "Lexend Zetta", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  width: 82%;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.homepages__main .container .card .card__satu {
+  margin-top: 25px;
+  margin-bottom: 70px;
+  background-color: #c4c4c4;
+  width: 160px;
+  height: 222px;
+  padding-top: 28px;
+}
+
+.homepages__main .container .card .card__satu:hover {
+  background-color: black;
+}
+
+.homepages__main .container .card .card__satu a {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.homepages__main .container .card .card__satu a p {
+  padding-top: 10px;
+}
+
+.homepages__main .container .card .card__satu .bullet {
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #c4c4c4;
+  border-radius: 100%;
+  margin-top: 200px;
+}

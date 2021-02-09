@@ -20,4 +20,8 @@ class Home extends BaseController
 	{
 		return view('read_tag_user');
 	}
+	public function service()
+	{
+		return view('service');
+	}
 }
